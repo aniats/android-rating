@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startWindowFragment2">
+    <fragment
+        android:id="@+id/startWindowFragment2"
+        android:name="ru.ratings.tselikova.screens.fragments.StartWindowFragment"
+        android:label="@string/app_name" >
+        <action
+            android:id="@+id/action_startWindowFragment2_to_createNewListFragment2"
+            app:destination="@id/createNewListFragment2" />
+        <action
+            android:id="@+id/action_startWindowFragment2_to_listOfListsFragment2"
+            app:destination="@id/listOfListsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewListFragment2"
+        android:name="ru.ratings.tselikova.screens.fragments.CreateNewListFragment"
+        android:label="@string/add_new_list" >
+        <action
+            android:id="@+id/action_createNewListFragment2_to_specificListFragment2"
+            app:destination="@id/specificListFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/listOfListsFragment2"
+        android:name="ru.ratings.tselikova.screens.fragments.ListOfListsFragment"
+        android:label="@string/view_existing_lists" >
+        <action
+            android:id="@+id/action_listOfListsFragment2_to_specificListFragment2"
+            app:destination="@id/specificListFragment2" />
+        <action
+            android:id="@+id/action_listOfListsFragment2_to_createNewListFragment2"
+            app:destination="@id/createNewListFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemEditingFragment2"
+        android:name="ru.ratings.tselikova.screens.fragments.ItemEditingFragment"
+        android:label="@string/editing" >
+        <action
+            android:id="@+id/action_itemEditingFragment2_to_specificListFragment2"
+            app:destination="@id/specificListFragment2" />
+        <argument
+            android:name="listname"
+            app:argType="string" />
+        <argument
+            android:name="itemId"
+            app:argType="integer" />
+        <argument
+            android:name="prevName"
+            app:argType="string" />
+        <argument
+            android:name="prevRating"
+            app:argType="integer" />
+        <argument
+            android:name="listId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/specificListFragment2"
+        android:name="ru.ratings.tselikova.screens.fragments.SpecificListFragment"
+        android:label="@string/list" >
+        <action
+            android:id="@+id/action_specificListFragment2_to_itemEditingFragment2"
+            app:destination="@id/itemEditingFragment2" />
+        <argument
+            android:name="listname"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_specificListFragment2_to_listOfListsFragment2"
+            app:destination="@id/listOfListsFragment2" />
+    </fragment>
+</navigation>

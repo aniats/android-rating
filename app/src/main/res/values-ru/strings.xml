@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RatingApp</string>
+    <string name="your_rating_lists">Ваши рейтинговые списки</string>
+    <string name="editing">Редактирование</string>
+    <string name="in">в</string>
+    <string name="list">Список</string>
+    <string name="default_text">Текст по умолчанию</string>
+    <string name="new_list_creation">Создание нового списка</string>
+    <string name="new_list_name">Название для нового рейтинга…</string>
+    <string name="new_item_name">Название для нового элемента…</string>
+    <string name="default_value">0</string>
+    <string name="submit_changes">Сохранить изменения</string>
+    <string name="delete_item">Удалить элемент</string>
+    <string name="add_new_list">Добавить новый список</string>
+    <string name="clear_filter">Удалить фильтры</string>
+    <string name="delete_list">Удалить список</string>
+    <string name="use_this_field_to_filter_lists">Используйте это поле для фильтрации</string>
+    <string name="you_dont_have_any_rating_lists_yet">У вас нет рейтинговых списков</string>
+    <string name="you_dont_have_any_items_in_this_list_yet">У вас нет элементов в этом рейтинге</string>
+    <string name="add_new_item">Добавить новый элемент</string>
+    <string name="create_new_list">Создать новый рейтинг</string>
+    <string name="view_existing_lists">Посмотреть существующие списки</string>
+    <string name="please_enter_listname">Введите имя списка</string>
+    <string name="please_enter_itemname">Введите название элемента</string>
+    <string name="please_enter_itemrating">Введите рейтинг</string>
+</resources>

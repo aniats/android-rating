@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RatingApp</string>
+    <string name="editing">Editing</string>
+    <string name="in">in</string>
+    <string name="new_list_creation">New list creation</string>
+    <string name="your_rating_lists">Your rating lists</string>
+    <string name="list">List</string>
+    <string name="default_text">Default text</string>
+    <string name="new_list_name">New list name…</string>
+    <string name="new_item_name">New item name…</string>
+    <string name="default_value">0</string>
+    <string name="submit_changes">Submit changes</string>
+    <string name="delete_item">Delete item</string>
+    <string name="add_new_list">Add new list</string>
+    <string name="clear_filter">Clear filter</string>
+    <string name="delete_list">Delete list</string>
+    <string name="use_this_field_to_filter_lists">Use this field to filter lists</string>
+    <string name="you_dont_have_any_rating_lists_yet">You don\'t have any rating lists yet</string>
+    <string name="you_dont_have_any_items_in_this_list_yet">You don\'t have any items in this list yet</string>
+    <string name="add_new_item">Add new item</string>
+    <string name="create_new_list">Create new list</string>
+    <string name="view_existing_lists">View existing lists</string>
+    <string name="please_enter_listname">Please, enter list name</string>
+    <string name="please_enter_itemname">Please, enter item name</string>
+    <string name="please_enter_itemrating">Please, enter item rating</string>
+</resources>
